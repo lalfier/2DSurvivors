@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://timoom5w7i12"]
+
+[ext_resource type="Script" path="res://scenes/component/VialDropComponent.cs" id="1_3h1py"]
+[ext_resource type="PackedScene" uid="uid://f6ck1i8qvgrk" path="res://scenes/game_object/experience_vial/experience_vial.tscn" id="2_f47n3"]
+
+[node name="VialDropComponent" type="Node"]
+script = ExtResource("1_3h1py")
+_vialScene = ExtResource("2_f47n3")

@@ -1,0 +1,22 @@
+[gd_scene load_steps=10 format=3 uid="uid://biadb6cfruxqg"]
+
+[ext_resource type="Script" path="res://scenes/manager/UpgradeManager.cs" id="1_w4uvb"]
+[ext_resource type="Resource" uid="uid://bct2nui18ngxn" path="res://resources/upgrades/sword_rate.tres" id="2_iskyt"]
+[ext_resource type="Resource" uid="uid://b74mnfjxg0omi" path="res://resources/upgrades/axe.tres" id="3_gbjll"]
+[ext_resource type="PackedScene" uid="uid://cwq252ix6fco4" path="res://scenes/ui/upgrade_screen.tscn" id="3_u0t7u"]
+[ext_resource type="Resource" uid="uid://dgbibypldsvm" path="res://resources/upgrades/axe_damage.tres" id="4_hoqve"]
+[ext_resource type="Resource" uid="uid://duem66x1qp5ig" path="res://resources/upgrades/sword_damage.tres" id="6_fauqe"]
+[ext_resource type="Resource" uid="uid://drafkpvqv3tqj" path="res://resources/upgrades/player_speed.tres" id="7_1v7ys"]
+[ext_resource type="Resource" uid="uid://ba1q561gl3vmb" path="res://resources/upgrades/anvil.tres" id="8_20dec"]
+[ext_resource type="Resource" uid="uid://c1teln5tbkalg" path="res://resources/upgrades/anvil_count.tres" id="9_4i1l8"]
+
+[node name="UpgradeManager" type="Node"]
+script = ExtResource("1_w4uvb")
+_upgradeScreenScene = ExtResource("3_u0t7u")
+_upgradeAxe = ExtResource("3_gbjll")
+_upgradeAxeDamage = ExtResource("4_hoqve")
+_upgradeSwordRate = ExtResource("2_iskyt")
+_upgradeSwordDamage = ExtResource("6_fauqe")
+_upgradePlayerSpeed = ExtResource("7_1v7ys")
+_upgradeAnvil = ExtResource("8_20dec")
+_upgradeAnvilCount = ExtResource("9_4i1l8")

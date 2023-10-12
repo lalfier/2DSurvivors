@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://qr2gc7xpqgjn"]
+
+[ext_resource type="Shader" path="res://scenes/component/HitFlashComponent.gdshader" id="1_ht0p6"]
+
+[resource]
+resource_local_to_scene = true
+shader = ExtResource("1_ht0p6")
+shader_parameter/lerpPercent = 0.0

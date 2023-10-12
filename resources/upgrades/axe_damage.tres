@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dgbibypldsvm"]
+
+[ext_resource type="Script" path="res://resources/upgrades/AbilityUpgrade.cs" id="1_vgeay"]
+
+[resource]
+script = ExtResource("1_vgeay")
+_id = "axe_damage"
+_maxQuantity = 0
+_name = "Axe Damage"
+_description = "Increases base axe damage by 10%."
